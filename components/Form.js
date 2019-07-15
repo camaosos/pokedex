@@ -34,8 +34,7 @@ class Login extends React.Component {
 
   handleSubmit = event => {
     let { email, password } = this.state;
-    //email === "bootcamp@globant.com" && password === "bootcamp123"
-    email === "A" && password === "B"
+    email === "bootcamp@globant.com" && password === "bootcamp123"
       ? this.handleLogin()
       : Alert.alert("Wrong email or password!");
     event.preventDefault();
